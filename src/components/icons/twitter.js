@@ -1,19 +1,28 @@
+
 import React from 'react';
 
 const IconTwitter = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     role="img"
-    viewBox="0 0 24 24"
-    fill="none"
+    viewBox="0 0 40 40"
+    fill='currentColor'
     stroke="currentColor"
-    strokeWidth="2"
+    strokeWidth="3.3"
     strokeLinecap="round"
     strokeLinejoin="round"
     className="feather feather-twitter">
-    <title>Twitter</title>
-    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+    <title>Facebook</title>
+    <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
   </svg>
 );
 
 export default IconTwitter;
+
+/*
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="50" height="50"
+viewBox="0 0 50 50"
+style=" fill:#000000;">    <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path></svg>
+
+*/
