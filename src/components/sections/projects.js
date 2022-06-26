@@ -13,12 +13,12 @@ const StyledProjectsSection = styled.section`
   align-items: center;
 
   h2 {
-    font-size: clamp(24px, 5vw, var(--fz-heading));
+    font-size: clamp(32px, 5vw, 50px);
   }
 
   .archive-link {
     font-family: var(--font-mono);
-    font-size: var(--fz-sm);
+    font-size: clamp(25px, 5vw, 30px);
     &:after {
       bottom: 0.1em;
     }
