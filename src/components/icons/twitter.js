@@ -5,7 +5,9 @@ const IconTwitter = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     role="img"
+
     viewBox="0 0 47 47"
+
     fill='currentColor'
     stroke="currentColor"
     strokeWidth="3.3"
