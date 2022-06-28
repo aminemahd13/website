@@ -162,7 +162,7 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
+                
                 <th className="hide-on-mobile">Built with</th>
                 <th>Link</th>
               </tr>
@@ -178,7 +178,6 @@ const ArchivePage = ({ location, data }) => {
                     android,
                     title,
                     tech,
-                    company,
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -186,9 +185,7 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="title">{title}</td>
 
-                      <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
-                      </td>
+                      
 
                       <td className="tech hide-on-mobile">
                         {tech.length > 0 &&
