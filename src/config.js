@@ -26,8 +26,8 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'projects',
-      url: '/projects',
+      name: 'blog',
+      url: '/blog',
     },
     {
       name: 'Archive',

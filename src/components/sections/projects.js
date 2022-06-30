@@ -13,12 +13,12 @@ const StyledProjectsSection = styled.section`
   align-items: center;
 
   h2 {
-    font-size: clamp(32px, 5vw, 50px);
+    font-size: clamp(30px, 5vw, 45px);
   }
 
   .archive-link {
     font-family: var(--font-mono);
-    font-size: clamp(25px, 5vw, 30px);
+    font-size: clamp(20px, 4vw, 25px);
     &:after {
       bottom: 0.1em;
     }
@@ -264,7 +264,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Noteworthy Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive

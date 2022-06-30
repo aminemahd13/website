@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a student that loves to build (and occasionally designing) exceptional
+        I’m a student that loves to build (and occasionally design) exceptional
         hardware and software projects for the sake of having some fun. To this day, I’ve worked on a variety of repositories that you can check out
         at my {' '}
         <a href="/archive"  rel="noreferrer">
