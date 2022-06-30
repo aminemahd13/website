@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet';
 
 const StyledContactSection = styled.section`
 margin-top: auto;
-margin-bottom: 15px;
+margin-bottom: 10px;
 padding-top: 200px;
 text-align: center;
 
@@ -23,7 +23,7 @@ text-align: center;
 h1 {
     margin: 0 0 10px 4px;
     
-    font-size: clamp(55px, 8vw, 85px);
+    font-size: clamp(45px, 6vw, 70px);
     font-weight: 700;
 
     @media (max-width: 480px) {
@@ -44,7 +44,7 @@ a {
 }
 `;
 
-const Projecthero = () => {
+const Galleryhero = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -59,19 +59,15 @@ const Projecthero = () => {
   return (
     
     <StyledContactSection className="fillHeight">
-      <Helmet title="Projects" />
+      <Helmet title="Gallery" />
 
       <header>
-        <h1 className="big-heading">PROJECTS</h1>
-        <p className="subtitle">
-          <a href="/gallery">
-              a collection of memories
-          </a>
-        </p>
+        <h1 className="big-heading">a collection of memories</h1>
       </header>
     </StyledContactSection>
   );
 };
 
-export default Projecthero;
+export default Galleryhero;
+
 

@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'PHP', 'React', 'Python', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript', 'PHP', 'React', 'Python', 'Node.js', 'Linux'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,9 +136,8 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Amine and I enjoy creating things. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              interest in technology has grown with me since i was a kid as i've always liked to take things apart and learn how each component works.
+              That's how this journey began.
             </p>
 
             <p>
