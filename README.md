@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  <a href="https://app.netlify.com/sites/zesty-boba-6d819f/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/d340bba4-d8f0-4148-beff-9ed495f75e89/deploy-status" alt="Netlify Status" />
   </a>
 </p>
 
