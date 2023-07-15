@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'contact@aminemahdane.me',
+  email: 'aminemahdane12@gmail.com',
 
   socialMedia: [
     {
@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/aminemahd13',
+      url: 'https://www.instagram.com/amine.mahdane',
     },
     {
       name: 'Twitter',
