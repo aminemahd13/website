@@ -87,7 +87,7 @@ const Footer = () => (
     <StyledCredit tabindex="-1">
       <a href="https://github.com/aminemahd13">
         <div>Designed &amp; Built by Amine Mahdane</div>
-        <div>U2FoYXJvcw==</div>
+        <div>Tm91ciBlbCBob3VkYQ==</div>
       </a>
     </StyledCredit>
   </StyledFooter>
