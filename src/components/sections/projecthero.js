@@ -14,7 +14,7 @@ text-align: center;
 
 
 .subtitle {
-    
+
   font-size: clamp(10px, 4vw, 23px);
   font-weight: 200;
 
@@ -22,7 +22,7 @@ text-align: center;
 
 h1 {
     margin: 0 0 10px 4px;
-    
+
     font-size: clamp(55px, 8vw, 85px);
     font-weight: 700;
 
@@ -57,16 +57,14 @@ const Projecthero = () => {
   }, []);
 
   return (
-    
+
     <StyledContactSection className="fillHeight">
       <Helmet title="Projects" />
 
       <header>
         <h1 className="big-heading">PROJECTS</h1>
         <p className="subtitle">
-          <a href="/gallery">
-              a collection of memories
-          </a>
+
         </p>
       </header>
     </StyledContactSection>
