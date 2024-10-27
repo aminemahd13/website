@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'contact@mahdaneamine.me',
+  email: 'contact@aminemahdane.com',
 
   socialMedia: [
     {
@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/amine-mahdane-87640a1a5/',
+      url: 'https://www.linkedin.com/in/amine-mahdane/',
     },
   ],
 
@@ -41,8 +41,8 @@ module.exports = {
 
   colors: {
     green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    navy: '#071422',
+    darkNavy: '#040F1A',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({
